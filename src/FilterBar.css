@@ -1,7 +1,7 @@
 /* FilterBar.css */
 
 .filter-bar {
-    @apply flex flex-wrap items-center justify-between gap-2 p-4;
+    @apply flex flex-wrap items-center justify-between gap-2 px-4 py-3 2xs:justify-end 2xs:py-2;
     border-bottom: 1px solid #e5e7eb; /* Tailwind's gray-200 */
     border-top: 1px solid #e5e7eb; /* Tailwind's gray-200 */
 }
@@ -11,7 +11,7 @@
 }
 
 .all-filters-btn {
-    @apply flex items-center px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200;
+    @apply flex items-center px-3 py-1 border rounded-full bg-gray-100 hover:bg-gray-200 2xs:text-2xs;
 }
 
 .desktop-only {
@@ -22,22 +22,23 @@
     @apply flex items-center gap-2;
 }
 
-.people-btn,
+.people-btn {
+    @apply flex items-center px-3 py-1 border rounded-full bg-gray-100 hover:bg-gray-200 2xs:hidden xs:hidden sm:hidden;
+}
 .locations-btn {
-    @apply flex items-center px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200 2xs:hidden xs:hidden;
+    @apply flex items-center px-3 py-1 border rounded-full bg-gray-100 hover:bg-gray-200 2xs:hidden xs:hidden;
 }
 
 .seniority-btn {
-    @apply flex items-center px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200 sm:hidden 2xs:hidden xs:hidden;
+    @apply flex items-center px-3 py-1 border rounded-full hover:bg-gray-200 sm:hidden 2xs:hidden xs:hidden md:hidden;
 }
 
-
 .current-company-btn {
-    @apply flex items-center px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200  md:hidden sm:hidden xs:hidden 2xs:hidden;
+    @apply flex items-center px-3 py-1 border rounded-full hover:bg-gray-200  md:hidden sm:hidden xs:hidden 2xs:hidden;
 }
 
 .order-by-btn {
-    @apply flex items-center px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200;
+    @apply flex items-center px-3 py-1 border rounded-full hover:bg-gray-200 2xs:text-2xs;
 }
 .reset-btn {
     @apply 2xs:hidden xs:hidden
@@ -56,11 +57,7 @@
 }
 
 .ranking-btn {
-    @apply flex items-center px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200;
-}
-
-.order-by-btn {
-    @apply flex items-center px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200;
+    @apply flex items-center px-3 py-1 border rounded-full bg-gray-100 hover:bg-gray-200;
 }
 
 .icon-margin-left {
@@ -70,3 +67,22 @@
 .icon-margin-right {
     @apply mr-2;
 }
+
+/* ButtonGroup.css */
+
+.button-group-container {
+    @apply inline-flex border rounded-full overflow-hidden;
+  }
+  
+  .button-group-item {
+    @apply px-3 py-1 text-gray-700 border-gray-300 hover:bg-gray-200;
+  }
+  
+  .button-group-item:not(:last-child) {
+    @apply border-r;
+  }
+  
+  .button-group-item.selected {
+    @apply bg-gray-200 text-black;
+  }
+  

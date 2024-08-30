@@ -1,5 +1,5 @@
 .breadcrumb-container {
-    @apply flex items-center text-gray-600 text-sm space-x-2;
+    @apply flex items-center text-gray-600 text-sm space-x-2 2xs:text-xs;
   }
   
   .breadcrumb-icon {

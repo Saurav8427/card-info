@@ -19,45 +19,45 @@
   }
   
   .card-title {
-    @apply text-xl font-semibold;
+    @apply text-xl font-semibold 2xs:text-base 2xs:font-bold;
   }
   
   .card-description {
-    @apply text-sm text-gray-600 mb-6;
+    @apply text-sm text-gray-600 mb-6 2xs:text-xs;
   }
   
   .pricing-plans-text {
-    @apply text-base font-semibold mt-2 mb-1/* Added margin for spacing */
+    @apply flex items-center text-base font-semibold mt-2 mb-1 2xs:text-sm/* Added margin for spacing */
   }
   
   .pricing-options {
-    @apply flex gap-2 my-2;
+    @apply flex justify-between gap-2 my-2;
   }
   
   .pricing-plan {
-    @apply px-3 py-1 border rounded-full bg-gray-100 hover:bg-gray-200 text-xs;
+    @apply px-3 py-1 border rounded-lg bg-gray-100 hover:bg-gray-200 text-xs 2xs:px-1;
   }
   
   .details {
     @apply flex items-center justify-between mt-4; /* Added margin top for spacing */
   }
   .divider {
-    @apply border-t border-gray-300 my-6;
+    @apply border-t border-gray-300 my-6 2xs:mt-6 2xs:mb-4;
   }
   .divider-bottom {
-    @apply border-t border-gray-300 my-6 lg:hidden xl:hidden;
+    @apply border-t border-gray-300 my-6 2xs:mt-4 2xs:mb-6 lg:hidden xl:hidden;
   }
   .info-group {
-    @apply text-gray-600 text-sm flex flex-col;
+    @apply text-gray-600 text-sm font-bold flex flex-col 2xs:text-xs;
   }
   .fa-dollar-sign{
     @apply text-white bg-green-700 rounded-full p-1 mr-1;
   }
   .info-group .info-value {
-    @apply ml-2;
+    @apply ml-2 font-medium;
   }
   .info-group p {
-    @apply font-medium;
+    @apply font-bold;
   }
   .vertical-divider {
     @apply w-px bg-gray-300 mx-4; /* Vertical divider */
@@ -78,4 +78,3 @@
   .details-btn {
     @apply px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200;
   }
-  

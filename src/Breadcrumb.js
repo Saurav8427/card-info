@@ -22,7 +22,7 @@ const Breadcrumb = () => {
       <span className="breadcrumb-icon">
         <FontAwesomeIcon icon={faChevronRight} />
       </span>
-      <span>Item</span>
+      <span className='text-gray-400'>Item</span>
     </nav>
   );
 };

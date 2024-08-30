@@ -27,7 +27,7 @@ const CardComponent = () => {
         <h3 className="card-title">Teemill: Eco Print on Demand</h3>
         <p className="card-description">Collect and display product reviews and star ratings, sales with social proof.</p>
         
-        <p className="pricing-plans-text"><FontAwesomeIcon icon={faDollarSign} size='2xs'/>Pricing plans 4</p>
+        <div className="pricing-plans-text"><FontAwesomeIcon icon={faDollarSign} size='sm'/>Pricing plans 4</div>
         <div className="pricing-options">
           <div className="pricing-plan">$24 / month</div>
           <div className="pricing-plan">$36 / month</div>
@@ -36,17 +36,16 @@ const CardComponent = () => {
         <div className="divider"></div>
         <div className="details">
           <div className="info-group">
-            <p>Points <FontAwesomeIcon icon={faInfoCircle} /></p>
-            
+            <p>Points <FontAwesomeIcon icon={faInfoCircle} className='text-blue-600' /></p>
             <p className="info-value">122</p>
           </div>
           <div className="info-group">
             <p>Market Share</p>
-            <span>13%</span>
+            <p className="info-value">13%</p>
           </div>
           <div className="info-group">
             <p>Launch Date</p>
-            <span>12 May 23</span>
+            <p className="info-value">12 May 23</p>
           </div>
         </div>
       </div>

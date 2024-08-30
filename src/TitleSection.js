@@ -8,7 +8,7 @@ const TitleSection = () => {
         Python starter templates and themes
       </h1>
       <p className="title-description">
-        The studio-quality three-mic array is designed to reduce feedback, so THe studio-quality three-mic array is designed to reduce feedback, so means everyone hears you - not what's going on around you means everyone hears you – not what's going on around you.
+        The studio-quality three-mic array is designed to reduce feedback, so The studio-quality three-mic array is designed to reduce feedback, so means everyone hears you - not what's going on around you means everyone hears you – not what's going on around you.
       </p>
     </div>
   );
