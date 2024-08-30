@@ -24,7 +24,7 @@
 .radial-progress {
     @apply text-blue-500;
     --tw-value: 75;
-    --tw-size: 4rem;
+    --tw-size: 3.5rem;
     --tw-thickness: 0.5rem;
     display: inline-flex;
     justify-content: center;
