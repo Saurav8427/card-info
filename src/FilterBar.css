@@ -3,6 +3,7 @@
 .filter-bar {
     @apply flex flex-wrap items-center justify-between gap-2 p-4;
     border-bottom: 1px solid #e5e7eb; /* Tailwind's gray-200 */
+    border-top: 1px solid #e5e7eb; /* Tailwind's gray-200 */
 }
 
 .filter-group {
