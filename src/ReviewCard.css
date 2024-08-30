@@ -14,11 +14,11 @@
 }
 
 .rating-label {
-    @apply text-lg font-semibold 2xs:text-base;
+    @apply text-lg font-semibold 2xs:text-sm;
 }
 
 .review-count {
-    @apply text-sm text-gray-500 2xs:text-xs;
+    @apply text-sm text-gray-500 2xs:text-2xs;
 }
 
 .radial-progress {
@@ -34,6 +34,14 @@
     height: var(--tw-size);
     border-width: var(--tw-thickness);
 }
+
+@media only screen and (max-width: 479px) {
+    .radial-progress {
+        --tw-size: 3rem;
+        --tw-thickness: 0.335rem;
+    }
+}
+
 .progress-value {
     @apply text-sm font-black text-blue-500;
 }
@@ -43,9 +51,9 @@
 }
 
 .people-button {
-    @apply bg-purple-600 text-white py-1 px-4 rounded-lg w-full sm:w-auto xs:w-auto 2xs:w-auto 2xs:text-xs;
+    @apply bg-purple-600 text-white py-1 px-4 rounded-xl w-full sm:w-auto xs:w-auto 2xs:w-auto 2xs:text-xs;
 }
 
 .details-button {
-    @apply bg-gray-200 text-gray-800 py-1 px-4 rounded-lg w-full sm:w-auto xs:w-auto 2xs:w-auto 2xs:text-xs;
+    @apply bg-gray-200 text-gray-800 py-1 px-4 rounded-xl w-full sm:w-auto xs:w-auto 2xs:w-auto 2xs:text-xs;
 }

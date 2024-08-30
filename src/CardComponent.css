@@ -1,7 +1,7 @@
 /* CardComponent.css */
 
 .card-container {
-    @apply flex flex-col  xl:flex-row lg:flex-row justify-start p-6 bg-white rounded-lg mx-4 mt-10 2xs:mx-6;
+    @apply flex flex-col  xl:flex-row lg:flex-row justify-start p-6 bg-white rounded-lg mx-4 mt-8 2xs:mx-6;
     max-width: 1100px; /* Increased width */
    /* margin: 1rem 0;  Left aligned with some margin on top and bottom */
     border: 1px solid #e5e7eb; /* Tailwind's gray-200 */
@@ -11,7 +11,7 @@
     @apply w-2/5 sm:w-full md:w-full xs:w-full 2xs:w-full;
   }
   .card-left img {
-    @apply w-full h-full rounded-lg; /* Doubled the size and made rectangular */
+    @apply w-full h-full rounded-md; /* Doubled the size and made rectangular */
   }
   
   .card-middle {
