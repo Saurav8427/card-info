@@ -10,13 +10,13 @@ const Breadcrumb = () => {
       <span className="breadcrumb-icon">
         <FontAwesomeIcon icon={faChevronRight} />
       </span>
-      <a href="#" className="breadcrumb-link">
+      <a href="/" className="breadcrumb-link">
         Category
       </a>
       <span className="breadcrumb-icon">
         <FontAwesomeIcon icon={faChevronRight} />
       </span>
-      <a href="#" className="breadcrumb-link">
+      <a href="/" className="breadcrumb-link">
         Subcategory
       </a>
       <span className="breadcrumb-icon">

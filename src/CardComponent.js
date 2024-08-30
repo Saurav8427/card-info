@@ -1,16 +1,16 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDollarSign, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
-import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
+// import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 import './CardComponent.css'; // Import the custom CSS file
 import ReviewCard from './ReviewCard';
 
-const data = [
-  { name: 'Points', value: 122 },
-  { name: 'Market Share', value: 13 },
-];
+// const data = [
+//   { name: 'Points', value: 122 },
+//   { name: 'Market Share', value: 13 },
+// ];
 
-const COLORS = ['#00C49F', '#FFBB28'];
+// const COLORS = ['#00C49F', '#FFBB28'];
 
 const CardComponent = () => {
   return (
