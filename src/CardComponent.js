@@ -50,7 +50,7 @@ const CardComponent = () => {
           </div>
         </div>
       </div>
-
+      <div className="divider-bottom"></div>
       <div className="vertical-divider"></div>
     <ReviewCard />
       {/* <div className="card-right">

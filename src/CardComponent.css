@@ -1,7 +1,7 @@
 /* CardComponent.css */
 
 .card-container {
-    @apply flex flex-col  xl:flex-row lg:flex-row justify-start p-6 bg-white rounded-lg mx-4 mt-10;
+    @apply flex flex-col  xl:flex-row lg:flex-row justify-start p-6 bg-white rounded-lg mx-4 mt-10 2xs:mx-6;
     max-width: 1100px; /* Increased width */
    /* margin: 1rem 0;  Left aligned with some margin on top and bottom */
     border: 1px solid #e5e7eb; /* Tailwind's gray-200 */
@@ -44,6 +44,9 @@
   .divider {
     @apply border-t border-gray-300 my-6;
   }
+  .divider-bottom {
+    @apply border-t border-gray-300 my-6 lg:hidden xl:hidden;
+  }
   .info-group {
     @apply text-gray-600 text-sm flex flex-col;
   }
@@ -57,7 +60,7 @@
     @apply font-medium;
   }
   .vertical-divider {
-    @apply w-0.5 bg-gray-300 mx-4; /* Vertical divider */
+    @apply w-px bg-gray-300 mx-4; /* Vertical divider */
   }
   
   .card-right {

@@ -4,5 +4,5 @@
 }
 
 .section {
-  @apply px-10 py-4;
+  @apply px-10 py-4 2xs:px-0;
 }
