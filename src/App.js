@@ -6,7 +6,7 @@ import PageSection from './PageSection';
 function App() {
   return (
     <div className="App">
-      <div className="pt-20">
+      <div className="pt-16">
       <Header/>
       <main className="section">
         <PageSection />

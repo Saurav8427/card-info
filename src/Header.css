@@ -7,7 +7,7 @@
   }
   
   .shopify-dropdown {
-    @apply relative hidden md:block lg:block;
+    @apply relative hidden md:block lg:block xl:block;
   }
   
   .shopify-dropdown-button {
@@ -19,7 +19,7 @@
   }
   
   .nav-menu {
-    @apply hidden md:flex space-x-4 mx-auto font-medium lg:flex space-x-4 mx-auto font-medium;
+    @apply hidden md:flex space-x-4 mx-auto font-medium lg:flex space-x-4 mx-auto font-medium xl:flex space-x-4 mx-auto font-medium;
   }
   
   .nav-link {
@@ -51,7 +51,7 @@
   }
   
   .burger-menu {
-    @apply md:hidden text-purple-600 cursor-pointer lg:text-purple-600 cursor-pointer;
+    @apply text-purple-600 cursor-pointer md:hidden  lg:hidden xl:hidden;
   }
   
   .mobile-nav {
