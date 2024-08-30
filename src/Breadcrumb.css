@@ -1,0 +1,12 @@
+.breadcrumb-container {
+    @apply flex items-center text-gray-600 text-sm space-x-2;
+  }
+  
+  .breadcrumb-icon {
+    @apply mx-2;
+  }
+  
+  .breadcrumb-link {
+    @apply hover:underline;
+  }
+  

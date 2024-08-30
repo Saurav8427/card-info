@@ -1,0 +1,71 @@
+/* FilterBar.css */
+
+.filter-bar {
+    @apply flex flex-wrap items-center justify-between gap-2 p-4;
+    border-bottom: 1px solid #e5e7eb; /* Tailwind's gray-200 */
+}
+
+.filter-group {
+    @apply flex items-center gap-2;
+}
+
+.all-filters-btn {
+    @apply flex items-center px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200;
+}
+
+.desktop-only {
+    @apply hidden lg:flex;
+}
+
+.filter-options {
+    @apply flex items-center gap-2;
+}
+
+.people-btn,
+.locations-btn {
+    @apply flex items-center px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200 2xs:hidden xs:hidden;
+}
+
+.seniority-btn {
+    @apply flex items-center px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200 sm:hidden 2xs:hidden xs:hidden;
+}
+
+
+.current-company-btn {
+    @apply flex items-center px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200  md:hidden sm:hidden xs:hidden 2xs:hidden;
+}
+
+.order-by-btn {
+    @apply flex items-center px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200;
+}
+.reset-btn {
+    @apply 2xs:hidden xs:hidden
+}
+.people-btn,
+.locations-btn {
+    @apply bg-purple-600 text-white hover:bg-purple-700;
+}
+
+.locations-count {
+    @apply ml-2 rounded-full bg-white text-black px-2;
+}
+
+.ranking-group {
+    @apply flex items-center gap-2 2xs:hidden xs:hidden sm:hidden md:hidden lg:hidden;
+}
+
+.ranking-btn {
+    @apply flex items-center px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200;
+}
+
+.order-by-btn {
+    @apply flex items-center px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200;
+}
+
+.icon-margin-left {
+    @apply ml-2;
+}
+
+.icon-margin-right {
+    @apply mr-2;
+}

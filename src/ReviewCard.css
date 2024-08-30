@@ -1,0 +1,51 @@
+/* ReviewCard.css */
+
+.review-card {
+    @apply flex flex-col 2xs:flex-row sm:flex-row md:flex-row xs:flex-row items-center p-4;
+    justify-content: space-between;
+}
+
+.rating-container {
+    @apply flex items-center justify-between w-full md:w-auto sm:w-auto xs:w-auto 2xs:w-auto;
+}
+
+.text-content {
+    @apply flex flex-col mr-4 text-right;
+}
+
+.rating-label {
+    @apply text-lg font-semibold;
+}
+
+.review-count {
+    @apply text-sm text-gray-500;
+}
+
+.radial-progress {
+    @apply text-blue-500;
+    --tw-value: 75;
+    --tw-size: 4rem;
+    --tw-thickness: 0.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: var(--tw-size);
+    height: var(--tw-size);
+    border-width: var(--tw-thickness);
+}
+.progress-value {
+    @apply text-sm font-semibold text-blue-500;
+}
+
+.button-group {
+    @apply flex flex-col space-y-2 sm:space-y-2 w-full;
+}
+
+.people-button {
+    @apply bg-purple-600 text-white py-2 px-4 rounded-lg w-full sm:w-auto xs:w-auto 2xs:w-auto;
+}
+
+.details-button {
+    @apply bg-gray-200 text-gray-800 py-2 px-4 rounded-lg w-full sm:w-auto xs:w-auto 2xs:w-auto;
+}

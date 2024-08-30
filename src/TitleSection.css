@@ -1,0 +1,12 @@
+.title-container {
+    @apply mt-4;
+  }
+  
+  .title-heading {
+    @apply text-2xl md:text-3xl font-bold text-gray-800;
+  }
+  
+  .title-description {
+    @apply text-gray-500 mt-2;
+  }
+  

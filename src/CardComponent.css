@@ -1,0 +1,78 @@
+/* CardComponent.css */
+
+.card-container {
+    @apply flex flex-col  xl:flex-row lg:flex-row justify-start p-6 bg-white rounded-lg mx-4 mt-10;
+    max-width: 1100px; /* Increased width */
+   /* margin: 1rem 0;  Left aligned with some margin on top and bottom */
+    border: 1px solid #e5e7eb; /* Tailwind's gray-200 */
+  }
+  
+  .card-left {
+    @apply w-2/5 sm:w-full md:w-full xs:w-full 2xs:w-full;
+  }
+  .card-left img {
+    @apply w-full h-full rounded-lg; /* Doubled the size and made rectangular */
+  }
+  
+  .card-middle {
+    @apply flex-1 xl:mx-8 lg:mx-8 md:mt-6 mx-0 xs:mt-6 mx-0 sm:mt-6 mx-0 2xs:mt-6 mx-0;
+  }
+  
+  .card-title {
+    @apply text-xl font-semibold;
+  }
+  
+  .card-description {
+    @apply text-sm text-gray-600 mb-6;
+  }
+  
+  .pricing-plans-text {
+    @apply text-base font-semibold mt-2 mb-1/* Added margin for spacing */
+  }
+  
+  .pricing-options {
+    @apply flex gap-2 my-2;
+  }
+  
+  .pricing-plan {
+    @apply px-3 py-1 border rounded-full bg-gray-100 hover:bg-gray-200 text-xs;
+  }
+  
+  .details {
+    @apply flex items-center justify-between mt-4; /* Added margin top for spacing */
+  }
+  .divider {
+    @apply border-t border-gray-300 my-6;
+  }
+  .info-group {
+    @apply text-gray-600 text-sm flex flex-col;
+  }
+  .fa-dollar-sign{
+    @apply text-white bg-green-700 rounded-full p-1 mr-1;
+  }
+  .info-group .info-value {
+    @apply ml-2;
+  }
+  .info-group p {
+    @apply font-medium;
+  }
+  .vertical-divider {
+    @apply w-0.5 bg-gray-300 mx-4; /* Vertical divider */
+  }
+  
+  .card-right {
+    @apply flex flex-col justify-between items-center;
+  }
+  
+  .buttons-container {
+    @apply flex flex-col gap-2 mt-4; /* Added margin top for spacing */
+  }
+  
+  .people-btn {
+    @apply px-3 py-2 border rounded-full bg-purple-600 text-white hover:bg-purple-700;
+  }
+  
+  .details-btn {
+    @apply px-3 py-2 border rounded-full bg-gray-100 hover:bg-gray-200;
+  }
+  

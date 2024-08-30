@@ -1,0 +1,13 @@
+/* PageSection.css */
+
+.page-section-container {
+  @apply p-6 md:p-6;
+}
+
+.breadcrumb-row {
+  @apply mb-4;
+}
+
+.title-row {
+  @apply mt-4;
+}
